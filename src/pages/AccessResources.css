@@ -1,0 +1,81 @@
+/* src/components/AccessResources.css */
+
+.access-resources {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.resource-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.resource-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.resource-form button:hover {
+  background-color: #0056b3;
+}
+
+.resource-list {
+  margin-top: 20px;
+}
+
+.resource-item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-item h2 {
+  margin: 0 0 10px 0;
+}
+
+.resource-item p {
+  margin: 0 0 10px 0;
+}
+
+.resource-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resource-item a:hover {
+  text-decoration: underline;
+}
+
+.resource-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.resource-item button:hover {
+  background-color: #0056b3;
+}

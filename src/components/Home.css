@@ -1,0 +1,115 @@
+/* components/Home.css */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+  text-align: center;
+}
+
+.home-content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.header p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.feature h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul li {
+  margin: 0 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  background-color: #ddd;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons .btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.home-buttons .btn:hover {
+  background-color: #0056b3;
+}
