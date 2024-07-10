@@ -21,7 +21,7 @@ const AdminLogin = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/adminlogin",
+        "https://t30-olms-frontend.onrender.com:5001/api/adminlogin",
         formData
       );
 
